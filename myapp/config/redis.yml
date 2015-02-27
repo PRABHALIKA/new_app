@@ -1,0 +1,16 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+#
+
+#config/redis.yml
+development:
+  url: redis://10.18.80.108:6379/1
+test:
+  url: redis://10.18.80.108:6379/15
+production:
+  host: data.myapp.com
+  port: 6379
+  db: 0
